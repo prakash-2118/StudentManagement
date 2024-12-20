@@ -2,8 +2,8 @@ package studentManagement;
 import java.sql.*;
 public class database {
     private static final String url="jdbc:mysql://localhost:3306/studentManagement";
-    private static final String user="root";
-    private static final String password="prakash@21";
+    private static final String user="YOUR USERNAME"; // Use your username inside the quotes
+    private static final String password="YOUR PASSWORD";//Use your password 
 
     private static Connection getConnection() throws SQLException {
         return DriverManager.getConnection(url,user,password);
